@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoAr{
+    width: 75px;
+}
+img{
+    width: 50px;
+}
+.socialNets{
+    margin-right: 0.5em;
+    
+}
+.socialNets img{
+    margin: 0.2em;
+}
