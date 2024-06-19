@@ -14,14 +14,28 @@ div{
     font-weight: bold;
     margin-top: 7%;
 }
-@media(min-width: 576px){
+@media(min-width: 693px){
     #fotoPerfil{
         position: absolute;
         width: 15%;
         border-radius: 100%;
         box-shadow: 5px 5px 10px black;
         left: 2%;
-        top: 350px;
+        top: 378px;
+    }
+    #nombre{
+        font-weight: bold;
+        margin-top: 6%;
+    }
+}
+@media(min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 5px 5px 10px black;
+        left: 3%;
+        top: 400px;
     }
     #nombre{
         font-weight: bold;
@@ -35,7 +49,7 @@ div{
         border-radius: 100%;
         box-shadow: 5px 5px 10px black;
         left: 35%;
-        top: 375px;
+        top: 455px;
     }
     #nombre{
         font-weight: bold;
