@@ -1,0 +1,17 @@
+.container{
+    background: #cfcfcf;
+    max-width: 100%;
+    
+}
+.row
+{
+    background: #cfcfcf;
+    padding: 15px;
+    margin-right: 6px;
+    margin-left: 6px;
+    
+}
+
+h1 , h2, h3{
+    display: inline;
+}
