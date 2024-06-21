@@ -1,0 +1,15 @@
+.container{
+    background: #cfcfcf;
+    max-width: 100%;
+}
+.row{
+    background: #cfcfcf;
+}
+footer{
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}

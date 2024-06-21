@@ -1,6 +1,10 @@
+.container{
+    background: #cfcfcf;
+    max-width: 100%;
+}
 div{
     background-color: #000000;
-
+    
 }
 
 app-social-nets{

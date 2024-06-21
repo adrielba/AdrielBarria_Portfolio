@@ -1,0 +1,21 @@
+.container{
+    background: #cfcfcf;
+    max-width: 100%;
+}
+.row{
+    
+    background-color: #cfcfcf;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.contenedor{
+    width: auto;
+}
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+.img-proyecto{
+    box-shadow: 10px 10px 30px black;
+}
