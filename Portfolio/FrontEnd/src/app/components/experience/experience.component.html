@@ -3,18 +3,15 @@
         <h1><b>Experiencia</b></h1>
         <div class="col-lg-1"></div>
         <div class="col-lg-11">
-            <ul>
-                <li>
-                    <h2>Trabajo 01</h2> - <h3>(years)</h3>
-                </li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quisquam blanditiis animi quos. Suscipit doloremque mollitia voluptas, architecto iure soluta quod earum illo assumenda dolores laborum? Consequatur iste est voluptatum.</p>
-            </ul>
-            <ul>
-                <li>
-                    <h2>Trabajo 02</h2> - <h3>(years)</h3>
-                </li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eligendi officia facilis cupiditate nesciunt eius aliquid corporis repudiandae amet voluptatum architecto sapiente, modi vel, eos reiciendis impedit quia itaque! Alias.</p>
-            </ul>
+            <table class="table">
+                <tbody>
+                    <tr *ngFor= "let Experiencia of expe">
+                        <td><h1>{{Experiencia.nombreE}}</h1></td>
+                        <td>{{Experiencia.descripcionE}}</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
     
         </div>
     </div>
