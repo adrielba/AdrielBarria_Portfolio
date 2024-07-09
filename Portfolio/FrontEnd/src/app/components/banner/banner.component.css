@@ -4,3 +4,6 @@ img{
     display: block;
     margin: auto;
 }
+div{
+    padding: 0;
+}
