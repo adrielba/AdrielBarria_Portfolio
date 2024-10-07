@@ -3,19 +3,16 @@
         <h1><b>Educación</b></h1>
         <div class="col-lg-1"></div>
         <div class="col-lg-11">
-            <ul>
-                <li>
-                    <h2>Estudio 01</h2> - <h3>(years)</h3>
-                </li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quisquam blanditiis animi quos. Suscipit doloremque mollitia voluptas, architecto iure soluta quod earum illo assumenda dolores laborum? Consequatur iste est voluptatum.</p>
-            </ul>
-            <ul>
-                <li>
-                    <h2>Estudio 02</h2> - <h3>(years)</h3>
-                </li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eligendi officia facilis cupiditate nesciunt eius aliquid corporis repudiandae amet voluptatum architecto sapiente, modi vel, eos reiciendis impedit quia itaque! Alias.</p>
-            </ul>
-    
+            <table class="table">
+                <tbody>
+                    <tr *ngFor= "let Educacion of educacion">
+                        <td><h3>{{Educacion.nombreE}}</h3></td>
+                        <td>{{Educacion.descripcionE}}</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        
         </div>
     </div>
 </div>
